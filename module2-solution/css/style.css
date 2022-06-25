@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +14,8 @@ h1 {
 
 .box {
     border: 1px solid black;
-    margin: 18px;
+    margin: 24px;
+    position: relative;
 
 }
 
@@ -45,32 +45,53 @@ h1 {
 
 h3 {
     border: 1px solid black;
-    width: 40%;
+    padding: 12px 28px;
     text-align: center;
-    padding: 8px;
     font-family: "Montserrat", sans-serif;
-    margin-left: auto;
-    
-  
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
 }
 
 p {
-    margin: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    margin-top: 64px;
     font-family: "Montserrat", sans-serif;
 
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        position: relative;
+    }
     .one {
-        width: 50%;
+        width: 46%;
+        height: 300px;
+        
 
 
     }
-    .two {
-        width: 50%;
 
+    .two {
+        width: 46%;
+        position: absolute;
+        height: 300px;
+        top: 0;
+        right: 0;
+        margin-top: 0px;
+        
+
+    }
+
+    .three {
+        margin-top: 38px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         display: flex;
