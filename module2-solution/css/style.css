@@ -51,8 +51,6 @@ h3 {
     position: absolute;
     right: 0;
     top: 0;
-
-
 }
 
 p {
@@ -64,35 +62,31 @@ p {
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .container{
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
         position: relative;
     }
+
     .one {
-        width: 46%;
-        height: 300px;
-        
-
-
+        width: 45%;
+        height: 330px;
     }
 
     .two {
-        width: 46%;
+        width: 45%;
         position: absolute;
-        height: 300px;
+        height: 330px;
         top: 0;
         right: 0;
         margin-top: 0px;
-        
-
     }
 
     .three {
-        margin-top: 38px;
+        margin-top: 28px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .container {
         display: flex;
     }
